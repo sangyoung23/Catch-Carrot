@@ -24,8 +24,8 @@ function initGame() {
   // 게임시작될 때마다 당근과 벌레 리셋
   playGround.innerHTML = "";
   // 벌레와 당근을 생성한 뒤 playgorund에 추가해줌
-  addItem("carrot", "5", "../../img/carrot.png");
-  addItem("bug", "5", "../../img/bug.png");
+  addItem("carrot", "5", "./img/carrot.png");
+  addItem("bug", "5", "./img/bug.png");
 }
 
 // 당근과 벌레 생성과 포지션 지정 후 랜덤 배치
